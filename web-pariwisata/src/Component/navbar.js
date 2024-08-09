@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import styles from "../index.css"
 import Ngasik from "../Ngasik.jpg";
 
 
@@ -19,7 +17,6 @@ const Navbar = () => {
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
-                  {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                   <a href="#" className="rounded-md bg-gray-200 px-3 py-2 text-sm font-medium text-blue-300" aria-current="page">Home</a>
                   <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-blue-300 hover:bg-gray-700 hover:text-white">Pegunungan</a>
                   <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-blue-300 hover:bg-gray-700 hover:text-white">Pantai</a>
