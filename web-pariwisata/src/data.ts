@@ -1,19 +1,37 @@
 export const data = [
     {
-        kategori: 'Bukit',
+        kategori: 'Dataran Tinggi',
         nama: 'Panyangrayan',
         gambar: 'py',
     },
     
     {
-        kategori: 'Bukit',
+        kategori: 'Dataran Tinggi',
         nama: 'Pujiningrum',
         gambar: 'pj',
     },
 
     {
+        kategori: 'Dataran Tinggi',
+        nama: 'Shelter Galunggung',
+        gambar: 'sg',
+    },
+
+    {
+        kategori: 'Dataran Tinggi',
+        nama: 'Cipanas Galunggung',
+        gambar: 'cg',
+    },
+
+    {
+        kategori: 'Dataran Tinggi',
+        nama: 'Dinding Ari',
+        gambar: 'pj',
+    },
+
+    {
         kategori: 'Buatan',
-        nama: 'Karangresik',
+        nama: 'Karang Resik',
         gambar: 'kr',
     },
 
@@ -30,9 +48,9 @@ export const data = [
     },
 
     {
-        kategori: 'Bukit',
-        nama: 'Panyangrayan',
-        gambar: '',
+        kategori: 'Pantai',
+        nama: 'Pamayang',
+        gambar: 'pm',
     },
 
     {
