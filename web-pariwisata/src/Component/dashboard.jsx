@@ -56,7 +56,7 @@ const Dash = () => {
                             </div>
                             </div>
                             </div>
-                            <a href="" className="flex justify-center items-center gap-2 py-14 text-[#137FB8]">
+                            <a href="#more" className="flex justify-center items-center gap-2 py-14 text-[#137FB8]">
                                 <h1 className="text-4xl font-[300]">More <span className="font-bold">Destinations</span></h1>
                                 <img className="w-8 item-end" src={arrow}></img>
                             </a>
@@ -99,7 +99,7 @@ const Dash = () => {
                             banyak spot wisata yang bisa dikunjungi seperti pemandian air panas 
                             sampai wisata hiking <span className="font-bold">dinding ari.</span>
                         </p>
-                        <a className="flex items-center gap-2" href="">cari lebih banyak mengenai <span className="font-bold">PEGUNUNGAN</span> <img className="w-6" src={arrowwh}/></a>
+                        <a className="flex items-center gap-2" href="/dataranTinggi">cari lebih banyak mengenai <span className="font-bold">PEGUNUNGAN</span> <img className="w-6" src={arrowwh}/></a>
                     </div>
                     <img className="w-[50vw]" src={ar2}/>
                 </div>
