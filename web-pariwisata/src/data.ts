@@ -2,31 +2,31 @@ export const data = [
     {
         kategori: 'Bukit',
         nama: 'Panyangrayan',
-        gambar: '',
+        gambar: 'py',
     },
     
     {
         kategori: 'Bukit',
-        nama: 'Panyangrayan',
-        gambar: '',
+        nama: 'Pujiningrum',
+        gambar: 'pj',
     },
 
     {
-        kategori: 'Bukit',
-        nama: 'Panyangrayan',
-        gambar: '',
+        kategori: 'Buatan',
+        nama: 'Karangresik',
+        gambar: 'kr',
     },
 
     {
-        kategori: 'Bukit',
-        nama: 'Panyangrayan',
-        gambar: '',
+        kategori: 'Pantai',
+        nama: 'Karang Tawulan',
+        gambar: 'kt',
     },
 
     {
-        kategori: 'Bukit',
-        nama: 'Panyangrayan',
-        gambar: '',
+        kategori: 'Pantai',
+        nama: 'Pantai Cemara',
+        gambar: 'pc',
     },
 
     {
