@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import bg from "../background.png";
 import '../App.css';
 import resik from "../Images/karangresik/karangresik1.jpg";
 import resik2 from "../Images/karangresik/karangresik2.jpg";
