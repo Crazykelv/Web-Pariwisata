@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "caption":"tw1",
+        "icon": "Images/karangtawulan/IMG_8663.JPG"
+    },
+    {
+        "id": 2,
+        "caption":"wl1",
+        "icon": "Images/karangresik/karangresik1.jpg"
+    },
+    {
+        "id": 3,
+        "caption":"ddg1",
+        "icon": "Images/dinding/IMG_1052.JPG"
+    }
+]

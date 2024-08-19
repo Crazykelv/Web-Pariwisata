@@ -2,67 +2,79 @@ export const data = [
     {
         kategori: 'Dataran Tinggi',
         nama: 'Panyangrayan',
-        gambar: 'py',
+        gambar: require('./Images/Panyangrayan/panyang1.jpg')    
     },
     
     {
         kategori: 'Dataran Tinggi',
         nama: 'Pujiningrum',
-        gambar: 'pj',
+        gambar: require('./Images/dinding/IMG_1052.JPG')    
     },
 
     {
         kategori: 'Dataran Tinggi',
         nama: 'Shelter Galunggung',
-        gambar: 'sg',
+        gambar: require('./Images/dinding/IMG_1052.JPG')    
     },
 
     {
         kategori: 'Dataran Tinggi',
         nama: 'Cipanas Galunggung',
-        gambar: 'cg',
+        gambar: require('./Images/dinding/IMG_1052.JPG')    
     },
 
     {
         kategori: 'Dataran Tinggi',
         nama: 'Dinding Ari',
-        gambar: 'pj',
+        gambar: require('./Images/dinding/IMG_1052.JPG')    
     },
 
     {
         kategori: 'Buatan',
         nama: 'Karang Resik',
-        gambar: 'kr',
+        gambar: require('./Images/karangresik/karangresik2.jpg')    
     },
 
     {
         kategori: 'Pantai',
         nama: 'Karang Tawulan',
-        gambar: 'kt',
+        gambar: require('./Images/karangtawulan/TW1.JPG')    
     },
 
     {
         kategori: 'Pantai',
         nama: 'Pantai Cemara',
-        gambar: 'pc',
+        gambar: require('./Images/Pantai cemara/IMG_2286.JPG')    
     },
 
     {
         kategori: 'Pantai',
         nama: 'Pamayang',
-        gambar: 'pm',
+        gambar: require('./Images/dinding/IMG_1052.JPG')    
     },
 
     {
         kategori: 'Bukit',
         nama: 'Panyangrayan',
-        gambar: '',
+        gambar: require('./Images/dinding/IMG_1052.JPG')    
     },
 
     {
         kategori: 'Bukit',
         nama: 'Panyangrayan',
-        gambar: '',
+        gambar: require('./Images/dinding/IMG_1052.JPG')    
     },
 ]
 
+// export const imageData = [
+//     {
+//       id: 1,
+//       title: "Image 1",
+//       image: require('')
+//     },
+//     {
+//       id: 2,
+//       title: "Image 2",
+//       image: require("./Images/karangresik/karangresik1.jpg")
+//     }
+//   ];
