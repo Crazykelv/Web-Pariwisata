@@ -1,7 +1,7 @@
 import React from 'react'
 import bgMountain from "../Images/bg-mountain.jpg";
 import arrow from "../Images/ARROW BLUE.png";
-import Grid from "./grid";
+import GTinggi from './gtinggi';
 
 
 
@@ -14,7 +14,7 @@ const kategoriDataranTinggi = () => {
           </div>
 
           <div>
-            <Grid />
+            <GTinggi />
           </div>
     <div className='h-[300px]'>
         <img className='filter absolute brightness-50 h-[300px] object-cover w-full' src={bgMountain} />

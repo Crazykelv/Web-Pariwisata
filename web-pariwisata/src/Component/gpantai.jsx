@@ -1,12 +1,12 @@
 import React from 'react'
 import {data} from '../data'
 
-const Grid = () => {
+const GPantai = () => {
   const boxStyle = 'flex flex-col justify-end relative bg-slate-100 rounded-lg text-3xl font-thin'
   return (
     <>
       <div className='grid grid-cols-3 auto-rows-[300px] gap-3 px-20 mb-14'>
-        {data.filter(item => item.kategori === 'Dataran Tinggi').map((item, i) => 
+        {data.filter(item => item.kategori === 'Pantai').map((item, i) => 
         <div className={`${boxStyle} 
         ${i === 0 || i === 3 || i === 6 ? 'md:col-span-2': ''} 
         ${i === 2 ? 'md:row-span-2': ''}`} key={i} 
@@ -30,4 +30,4 @@ const Grid = () => {
   )
 }
 
-export default Grid
+export default GPantai

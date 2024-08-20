@@ -4,23 +4,17 @@ export const data = [
         nama: 'Panyangrayan',
         gambar: require('./Images/Panyangrayan/panyang1.jpg')    
     },
-    
-    {
-        kategori: 'Dataran Tinggi',
-        nama: 'Pujiningrum',
-        gambar: require('./Images/dinding/IMG_1052.JPG')    
-    },
 
     {
         kategori: 'Dataran Tinggi',
         nama: 'Shelter Galunggung',
-        gambar: require('./Images/dinding/IMG_1052.JPG')    
+        gambar: require('./Images/shelter/sh.jpg')    
     },
 
     {
         kategori: 'Dataran Tinggi',
         nama: 'Cipanas Galunggung',
-        gambar: require('./Images/dinding/IMG_1052.JPG')    
+        gambar: require('./Images/cipanas/cp.jpg')    
     },
 
     {
@@ -50,7 +44,7 @@ export const data = [
     {
         kategori: 'Pantai',
         nama: 'Pamayang',
-        gambar: require('./Images/dinding/IMG_1052.JPG')    
+        gambar: require('./Images/pamayang/py.jpg')    
     },
 
     {

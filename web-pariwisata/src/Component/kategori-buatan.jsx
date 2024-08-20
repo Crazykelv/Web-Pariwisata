@@ -1,8 +1,11 @@
 import React from 'react'
-import GPantai from './gpantai'
 import bgMountain from "../Images/bg-mountain.jpg";
+import GBuatan from './gbuatan';
 
-const KategoriPantai = () => {
+
+
+
+const KategoriBuatan = () => {
   return (
     <div className='bg-slate-50'>
           <div className='px-32 py-14 text-[#137FB8]'>
@@ -10,16 +13,16 @@ const KategoriPantai = () => {
           </div>
 
           <div>
-            <GPantai />
+            <GBuatan />
           </div>
     <div className='h-[300px]'>
         <img className='filter absolute brightness-50 h-[300px] object-cover w-full' src={bgMountain} />
         <div className='relative text-center'>
-          <h1 className='text-white font-bold text-7xl pt-24'>WISATA PANTAI</h1>
+          <h1 className='text-white font-bold text-7xl pt-24'>WISATA BUATAN</h1>
         </div>
     </div>
     </div>
   )
 }
 
-export default KategoriPantai
+export default KategoriBuatan
