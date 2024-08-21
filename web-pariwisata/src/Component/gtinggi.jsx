@@ -15,7 +15,8 @@ const GTinggi = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
-            color: 'white'
+            color: 'white',
+            backgroundPosition: 'center'
         }
 
         }>

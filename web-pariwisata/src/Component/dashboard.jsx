@@ -42,10 +42,10 @@ const Dash = () => {
 
                     <div className="container flex justify-center mx-auto">
                         <div className="flex justify-items-center gap-10">
-                            <div className="relative"> {/* IMAGE BOX */}
+                            <a href="/dindingAri" className="relative"> {/* IMAGE BOX */}
                                 <img className="w-[500px]" src={ari}/>
                                 <div className="absolute inset-0 mt-96 flex items-center justify-center bg-[#137FB8] bg-opacity-65"><h1 className="text-center text-xl font-[700] text-white">GUNUNG <br/><span className="font-[300]">DINDING ARI</span></h1></div>
-                            </div>
+                            </a>
                             <div className="relative"> {/* IMAGE BOX */}
                                 <img className="w-[500px]" src={karang}/>
                                 <div className="absolute inset-0 mt-96 flex items-center justify-center bg-[#137FB8] bg-opacity-65"><h1 className="text-center text-xl font-[700] text-white">PANTAI <br/><span className="font-[300]">KARANG TAWULAN</span></h1></div>
@@ -114,7 +114,7 @@ const Dash = () => {
                         karena disini kamu bisa melihat sunset.
                         </p>
                         </div>
-                        <a className="flex items-center gap-2" href="">cari lebih banyak mengenai <span className="font-bold">PANTAI</span> <img className="w-6" src={arrowwh}/></a>
+                        <a className="flex items-center gap-2" href="/pantai">cari lebih banyak mengenai <span className="font-bold">PANTAI</span> <img className="w-6" src={arrowwh}/></a>
                     </div>
                 </div>
                 <div className="flex flex-row-reverse justify-between h-[60vh]">
@@ -125,7 +125,7 @@ const Dash = () => {
                             yang populer di <span className="font-bold">Tasikmalaya</span> karena tempat ini 
                             memiliki unsur budaya luar seperti <span className="font-bold">jepang dan korea.</span>
                         </p>
-                        <a className="flex items-center gap-2" href="">cari lebih banyak mengenai <span className="font-bold">WISATA BUATAN</span> <img className="w-6" src={arrowwh}/></a>
+                        <a className="flex items-center gap-2" href="/buatan">cari lebih banyak mengenai <span className="font-bold">WISATA BUATAN</span> <img className="w-6" src={arrowwh}/></a>
                     </div>
                     <img className="w-[50vw]" src={resik2}/>
                 </div>

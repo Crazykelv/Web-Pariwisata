@@ -6,6 +6,7 @@ import Dash from './Component/dashboard';
 import DataranTinggi from './Component/kategori-dataranTinggi';
 import KategoriPantai from './Component/kategori-pantai';
 import KategoriBuatan from './Component/kategori-buatan';
+import DindingAri from './Component/details/dindingAri';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/dataranTinggi' element={<DataranTinggi />} />
         <Route path='/pantai' element={<KategoriPantai />} />
         <Route path='/buatan' element={<KategoriBuatan />} />
+        <Route path='/dindingAri' element={<DindingAri />} />
       </Routes>
     </BrowserRouter>
 

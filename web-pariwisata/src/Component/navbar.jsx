@@ -30,7 +30,7 @@ const Navbar = () => {
     // </>       
     <>
       <nav className="py-5 px-40 flex justify-between items-center text-[#818CB3]">
-        <img src={logo} alt="logo" className="w-60"></img>
+        <a href="/"><img src={logo} alt="logo" className="w-60"></img></a>
         <div className="flex gap-14 text-xl">
           <a href="/">Home</a>
           <a href="/pantai">Pantai</a>
