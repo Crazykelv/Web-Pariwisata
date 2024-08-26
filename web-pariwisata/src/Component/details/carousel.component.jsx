@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { IoIosArrowDropright, IoIosArrowDropleft  } from "react-icons/io";
 
-
 export default function Carousel ( { slides } ) {
 
     let [current, setCurrent] = useState(0);
@@ -25,14 +24,14 @@ export default function Carousel ( { slides } ) {
     }, [current]);
     return (
         <>
-        <div className="overflow-hidden relative w-full">
+        <div className="overflow-hidden relative max-w-[50vw] max-h-[60vh]">
             <div className="flex transition ease-out duration-700"
             style={{
-                width: `${slides.length * 100}vw`,
-                transform: `translateX(-${current * 100}vw)`, 
+                width: `${slides.length * 50}vw`,
+                transform: `translateX(-${current * 50}vw)`, 
             }}>
                 {slides.map((s) => {
-                    return <img className="h-[100vh] w-[100vw] object-cover flex-shrink-0" src={s} />;
+                    return <img className="h-[60vh] w-[50vw] object-cover flex-shrink-0" src={s} />;
                 })}
             </div>
 

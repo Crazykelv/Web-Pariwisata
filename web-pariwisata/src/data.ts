@@ -12,6 +12,26 @@ export const data = [
 
     {
         kategori: 'Dataran Tinggi',
+        nama: 'Bukit Pujiningrum',
+        gambar: require('./Images/Bukit Pujiningrum/5.jpg')    
+    },
+    {
+        kategori: 'Dataran Tinggi',
+        nama: 'Bukit Pangangonan',
+        gambar: require('./Images/Bukit Pangangonan/5.jpeg')    
+    },
+    {
+        kategori: 'Dataran Tinggi',
+        nama: 'Kopi Sarasa',
+        gambar: require('./Images/Sarasa/10.png')    
+    },
+    {
+        kategori: 'Dataran Tinggi',
+        nama: 'Bukit Sampalan',
+        gambar: require('./Images/Sampalan/2.png')    
+    },
+    {
+        kategori: 'Dataran Tinggi',
         nama: 'Shelter Galunggung',
         gambar: require('./Images/shelter/sh.jpg')    
     },
@@ -29,21 +49,26 @@ export const data = [
     },
 
     {
-        kategori: 'Pantai',
+        kategori: 'Pantai dan perairan',
         nama: 'Karang Tawulan',
         gambar: require('./Images/karangtawulan/TW1.JPG')    
     },
 
     {
-        kategori: 'Pantai',
+        kategori: 'Pantai dan perairan',
         nama: 'Pantai Cemara',
         gambar: require('./Images/Pantai cemara/IMG_2286.JPG')    
     },
 
     {
-        kategori: 'Pantai',
+        kategori: 'Pantai dan perairan',
         nama: 'Pamayang',
         gambar: require('./Images/pamayang/py.jpg')    
+    },
+    {
+        kategori: 'Pantai dan perairan',
+        nama: 'Situ Gede',
+        gambar: require('./Images/situGede/1.png')    
     },
 
     {

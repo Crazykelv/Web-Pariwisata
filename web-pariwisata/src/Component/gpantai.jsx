@@ -6,7 +6,7 @@ const GPantai = () => {
   return (
     <>
       <div className='grid grid-cols-3 auto-rows-[300px] gap-3 px-20 mb-14'>
-        {data.filter(item => item.kategori === 'Pantai').map((item, i) => 
+        {data.filter(item => item.kategori === 'Pantai dan perairan').map((item, i) => 
         <div className={`${boxStyle} 
         ${i === 0 || i === 3 || i === 6 ? 'md:col-span-2': ''} 
         ${i === 2 ? 'md:row-span-2': ''}`} key={i} 
@@ -19,7 +19,7 @@ const GPantai = () => {
         }
 
         }>
-          <div className='bg-[#004194] p-10 bg-opacity-40'>
+          <div className='bg-[#004194] p-10 bg-opacity-40 rounded-b-lg'>
             <h1 className=' font-bold'>{item.kategori}</h1>
             <h2 className=' ml-5'>{item.nama}</h2>
           </div>

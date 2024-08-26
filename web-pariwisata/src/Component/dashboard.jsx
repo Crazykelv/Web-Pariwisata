@@ -34,7 +34,7 @@ const Dash = () => {
 
 
         {/* POPULAR SECTION START */}
-            <section className="popular pt-16 h-[100vh]" id="popular">
+            <section className="popular pt-16 max-h-[95vh]" id="popular">
                 <div className="flex flex-col items-center justify-center text-[#137FB8]">
                     <h1 className="text-4xl font-[300]"><span className="font-[700]">POPULAR </span>DESTINATION</h1>
 
@@ -43,54 +43,29 @@ const Dash = () => {
                     <div className="container flex justify-center mx-auto">
                         <div className="flex justify-items-center gap-10">
                             <a href="/dindingAri" className="relative"> {/* IMAGE BOX */}
-                                <img className="w-[500px]" src={ari}/>
+                                <img className="max-w-[500px]" src={ari}/>
                                 <div className="absolute inset-0 mt-96 flex items-center justify-center bg-[#137FB8] bg-opacity-65"><h1 className="text-center text-xl font-[700] text-white">GUNUNG <br/><span className="font-[300]">DINDING ARI</span></h1></div>
                             </a>
                             <div className="relative"> {/* IMAGE BOX */}
-                                <img className="w-[500px]" src={karang}/>
+                                <img className="max-w-[500px]" src={karang}/>
                                 <div className="absolute inset-0 mt-96 flex items-center justify-center bg-[#137FB8] bg-opacity-65"><h1 className="text-center text-xl font-[700] text-white">PANTAI <br/><span className="font-[300]">KARANG TAWULAN</span></h1></div>
                             </div>
                             <div className="relative"> {/* IMAGE BOX */}
-                                <img className="w-[500px]" src={resik}/>
+                                <img className="max-w-[500px]" src={resik}/>
                                 <div className="absolute inset-0 mt-96 flex items-center justify-center bg-[#137FB8] bg-opacity-65"><h1 className="text-center text-xl font-[700] text-white">BUATAN <br/><span className="font-[300]">KARANG RESIK</span></h1></div>
                             </div>
                             </div>
                             </div>
-                            <a href="#more" className="flex justify-center items-center gap-2 py-14 text-[#137FB8]">
-                                <h1 className="text-4xl font-[300]">More <span className="font-bold">Destinations</span></h1>
-                                <img className="w-8 item-end" src={arrow}></img>
-                            </a>
-                            {/* <div className="basis-1/3 me-6 mt-4">
-                                <img src={ari}/>
-                                <div className=" bg-blue-400 relative bottom-24 me-3 text-center pt-6 pb-4 opacity-35">
-                                    <br></br>
-                                    <br></br>
-                                </div>
-                                <h1 className="relative bottom-40 text-center text-white">GUNUNG <br></br> <span>DINDING ARI</span> </h1>
-                            </div>
-                            <div className="basis-1/3 me-6 mt-4">
-                            <img src={karang}/>
-                                <div className=" bg-blue-400 relative bottom-24 me-3 text-center pt-6 pb-2 opacity-35">
-                                    <br></br>
-                                    <br></br>
-                                </div>
-                                <h1 className="relative bottom-40 text-center text-white">PANTAI <br></br> <span>KARANGTAWULAN</span> </h1>
-                            </div>
-                            <div className="basis-1/3  mt-4">
-                            <img src={py}/>
-                                <div className=" bg-blue-400 relative bottom-24 me-3 text-center pt-6 pb-2 opacity-35">
-                                    <br></br>
-                                    <br></br>
-                                </div>
-                                <h1 className="relative bottom-40 text-center text-white">BUATAN <br></br> <span>PANYANGRAYAN</span> </h1>
-                            </div> */}
                 </div>
             </section>
             {/* POPULAR SECTION END */}
 
 
-
-            <section className="h-[180vh] flex flex-col" id="more">
+            <a href="#more" className="flex justify-center items-center gap-2 my-14 text-[#137FB8]">
+                                <h1 className="text-4xl font-[300]">More <span className="font-bold">Destinations</span></h1>
+                                <img className="w-8 item-end" src={arrow}></img>
+            </a>
+            <section className="h-[180vh] flex flex-col mt-14" id="more">
                 <div className="flex justify-between h-[60vh]">
                     <div className="flex flex-col items-center justify-center w-[50vw] font-[300] text-white gap-5">
                         <h1 className="title text-7xl">PEGUNUNGAN</h1>
@@ -114,7 +89,7 @@ const Dash = () => {
                         karena disini kamu bisa melihat sunset.
                         </p>
                         </div>
-                        <a className="flex items-center gap-2" href="/pantai">cari lebih banyak mengenai <span className="font-bold">PANTAI</span> <img className="w-6" src={arrowwh}/></a>
+                        <a className="flex items-center gap-2" href="/pantai">cari lebih banyak mengenai <span className="font-bold">PANTAI</span>atau <span className="font-bold">PERAIRAN</span> <img className="w-6" src={arrowwh}/></a>
                     </div>
                 </div>
                 <div className="flex flex-row-reverse justify-between h-[60vh]">

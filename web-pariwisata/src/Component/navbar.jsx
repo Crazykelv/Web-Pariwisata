@@ -33,7 +33,7 @@ const Navbar = () => {
         <a href="/"><img src={logo} alt="logo" className="w-60"></img></a>
         <div className="flex gap-14 text-xl">
           <a href="/">Home</a>
-          <a href="/pantai">Pantai</a>
+          <a href="/pantai">Pantai dan Perairan</a>
           <a href="/datarantinggi">Dataran Tinggi</a>
           <a href="/buatan">Wisata Buatan</a>
         </div>
