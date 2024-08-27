@@ -8,6 +8,7 @@ import KategoriPantai from './Component/kategori-pantai';
 import KategoriBuatan from './Component/kategori-buatan';
 import DindingAri from './Component/details/dindingAri';
 import Panyangrayan from './Component/details/panyangrayan';
+import Karangresik from './Component/details/karangResik';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/buatan' element={<KategoriBuatan />} />
         <Route path='/dindingAri' element={<DindingAri />} />
         <Route path='/panyangrayan' element={<Panyangrayan />} />
+        <Route path='/karangresik' element={<Karangresik />} />
       </Routes>
     </BrowserRouter>
 
