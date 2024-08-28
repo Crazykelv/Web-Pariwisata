@@ -2,85 +2,119 @@ export const data = [
     {
         kategori: 'Dataran Tinggi',
         nama: 'Panyangrayan',
-        gambar: require('./Images/Panyangrayan/panyang1.jpg')    
+        gambar: require('./Images/Panyangrayan/panyang1.jpg'),
+        tipe: 'Bukit',
+        link: '/panyangrayan'    
     },
     {
         kategori: 'Dataran Tinggi',
         nama: 'Dinding Ari',
-        gambar: require('./Images/dinding/IMG_1052.JPG')    
+        gambar: require('./Images/dinding/IMG_1052.JPG'),
+        tipe: 'Gunung',
+        link: '/panyangrayan'  
     },
 
     {
         kategori: 'Dataran Tinggi',
-        nama: 'Bukit Pujiningrum',
-        gambar: require('./Images/Bukit Pujiningrum/5.jpg')    
+        nama: 'Pujiningrum',
+        gambar: require('./Images/Bukit Pujiningrum/5.jpg'),    
+        tipe: 'Bukit',
+        link: '/panyangrayan'    
     },
     {
         kategori: 'Dataran Tinggi',
-        nama: 'Bukit Pangangonan',
-        gambar: require('./Images/Bukit Pangangonan/5.jpeg')    
+        nama: 'Pangangonan',
+        gambar: require('./Images/Bukit Pangangonan/5.jpeg'),    
+        tipe: 'Bukit',
+        link: '/panyangrayan'    
     },
     {
         kategori: 'Dataran Tinggi',
-        nama: 'Kopi Sarasa',
-        gambar: require('./Images/Sarasa/10.png')    
+        nama: 'Sarasa',
+        gambar: require('./Images/Sarasa/10.png'),    
+        tipe: 'Kopi',
+        link: '/panyangrayan'    
     },
     {
         kategori: 'Dataran Tinggi',
-        nama: 'Bukit Sampalan',
-        gambar: require('./Images/Sampalan/2.png')    
+        nama: 'Sampalan',
+        gambar: require('./Images/Sampalan/2.png'),
+        tipe: 'Bukit',
+        link: '/panyangrayan'        
     },
     {
         kategori: 'Dataran Tinggi',
-        nama: 'Shelter Galunggung',
-        gambar: require('./Images/shelter/sh.jpg')    
+        nama: 'Galunggung',
+        gambar: require('./Images/shelter/sh.jpg'),    
+        tipe: 'Shelter',
+        link: '/panyangrayan'    
     },
 
     {
         kategori: 'Dataran Tinggi',
-        nama: 'Cipanas Galunggung',
-        gambar: require('./Images/cipanas/cp.jpg')    
+        nama: 'Galunggung',
+        gambar: require('./Images/cipanas/cp.jpg'),    
+        tipe: 'Cipanas',
+        link: '/panyangrayan'    
     },
 
     {
         kategori: 'Buatan',
         nama: 'Karang Resik',
-        gambar: require('./Images/karangresik/karangresik2.jpg')    
+        gambar: require('./Images/karangresik/karangresik2.jpg'),    
+        tipe: 'Taman Bermain',
+        link: '/panyangrayan'    
     },
 
     {
         kategori: 'Pantai dan perairan',
         nama: 'Karang Tawulan',
-        gambar: require('./Images/karangtawulan/TW1.JPG')    
+        gambar: require('./Images/karangtawulan/TW1.JPG'),
+        tipe: 'Pantai',
+        link: '/panyangrayan'        
     },
 
     {
         kategori: 'Pantai dan perairan',
-        nama: 'Pantai Cemara',
-        gambar: require('./Images/Pantai cemara/IMG_2286.JPG')    
+        nama: 'Cemara',
+        gambar: require('./Images/Pantai cemara/IMG_2286.JPG'),
+        tipe: 'Pantai',
+        link: '/panyangrayan'        
     },
 
     {
         kategori: 'Pantai dan perairan',
         nama: 'Pamayang',
-        gambar: require('./Images/pamayang/py.jpg')    
+        gambar: require('./Images/pamayang/py.jpg'),
+                tipe: 'Pantai',
+        link: '/panyangrayan'    
+    
     },
     {
         kategori: 'Pantai dan perairan',
         nama: 'Situ Gede',
-        gambar: require('./Images/situGede/1.png')    
+        gambar: require('./Images/situGede/1.png'),
+                tipe: 'Danau',
+        link: '/panyangrayan'    
+    
     },
 
     {
         kategori: 'Bukit',
         nama: 'Panyangrayan',
-        gambar: require('./Images/dinding/IMG_1052.JPG')    
+        gambar: require('./Images/dinding/IMG_1052.JPG'),
+                tipe: 'Bukit',
+        link: '/panyangrayan'    
+    
     },
 
     {
         kategori: 'Bukit',
         nama: 'Panyangrayan',
-        gambar: require('./Images/dinding/IMG_1052.JPG')    
+        gambar: require('./Images/dinding/IMG_1052.JPG'),
+                tipe: 'Bukit',
+        link: '/panyangrayan'    
+    
     },
 ]
 

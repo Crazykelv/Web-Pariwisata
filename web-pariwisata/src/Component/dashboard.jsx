@@ -66,7 +66,7 @@ const Dash = () => {
                                 <img className="w-8 item-end" src={arrow}></img>
             </a>
             <section className="h-[180vh] flex flex-col mt-14" id="more">
-                <div className="flex justify-between h-[60vh]">
+                <div className="flex justify-between h-[60vh] relative">
                     <div className="flex flex-col items-center justify-center w-[50vw] font-[300] text-white gap-5">
                         <h1 className="title text-7xl">PEGUNUNGAN</h1>
                         <p className="max-w-96 text-center text-xl">
@@ -74,12 +74,12 @@ const Dash = () => {
                             banyak spot wisata yang bisa dikunjungi seperti pemandian air panas 
                             sampai wisata hiking <span className="font-bold">dinding ari.</span>
                         </p>
-                        <a className="flex items-center gap-2" href="/dataranTinggi">cari lebih banyak mengenai <span className="font-bold">PEGUNUNGAN</span> <img className="w-6" src={arrowwh}/></a>
+                        <a className="flex items-center gap-2" href="/dataranTinggi">cari lebih banyak mengenai <span className="font-bold">PEGUNUNGAN</span> atau <span className="font-bold">DATARAN TINGGI</span><img className="w-6" src={arrowwh}/></a>
                     </div>
                     <img className="w-[50vw]" src={ar2}/>
                 </div>
                 <div className="flex justify-between relative h-[60vh]">
-                    <img className="items-center object-cover object-bottom blur " src={karang}/>
+                    <img className="items-center object-cover object-bottom blur" src={karang}/>
                     <div className="absolute overflow-x-auto flex flex-col items-center justify-center w-full h-[60vh] font-[300] text-white gap-5">
                         <div className="ml-28 flex justify-evenly items-center">
                         <h1 className="title text-9xl mr-5">PANTAI</h1>

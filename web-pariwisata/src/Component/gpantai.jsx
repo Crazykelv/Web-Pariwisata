@@ -20,7 +20,7 @@ const GPantai = () => {
 
         }>
           <div className='bg-[#004194] p-10 bg-opacity-40 rounded-b-lg'>
-            <h1 className=' font-bold'>{item.kategori}</h1>
+            <h1 className=' font-bold'>{item.tipe}</h1>
             <h2 className=' ml-5'>{item.nama}</h2>
           </div>
         </div>

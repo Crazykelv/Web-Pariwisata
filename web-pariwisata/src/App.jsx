@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Navbar from './Component/navbar';
+import Footer from './Component/footer';
 import Dash from './Component/dashboard';
 import DataranTinggi from './Component/kategori-dataranTinggi';
 import KategoriPantai from './Component/kategori-pantai';
@@ -24,6 +25,7 @@ function App() {
         <Route path='/panyangrayan' element={<Panyangrayan />} />
         <Route path='/karangresik' element={<Karangresik />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
 
   );
