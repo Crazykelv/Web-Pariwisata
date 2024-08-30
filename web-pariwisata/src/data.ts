@@ -100,10 +100,28 @@ export const data = [
     },
 
     {
-        kategori: 'Bukit',
-        nama: 'Panyangrayan',
-        gambar: require('./Images/dinding/IMG_1052.JPG'),
-                tipe: 'Bukit',
+        kategori: 'Buatan',
+        nama: 'Dadaha',
+        gambar: require('./Images/Dadaha/dh1.jpeg'),
+                tipe: 'Buatan',
+        link: '/panyangrayan'    
+    
+    },
+
+    {
+        kategori: 'Buatan',
+        nama: 'Asia Plaza',
+        gambar: require('./Images/Ap/dh1.jpg'),
+                tipe: 'Buatan',
+        link: '/panyangrayan'    
+    
+    },
+
+    {
+        kategori: 'Buatan',
+        nama: 'Tee Jay',
+        gambar: require('./Images/Teejay/tj1.jpeg'),
+                tipe: 'Buatan',
         link: '/panyangrayan'    
     
     },

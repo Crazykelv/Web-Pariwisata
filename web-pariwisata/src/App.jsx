@@ -10,6 +10,9 @@ import KategoriBuatan from './Component/kategori-buatan';
 import DindingAri from './Component/details/dindingAri';
 import Panyangrayan from './Component/details/panyangrayan';
 import Karangresik from './Component/details/karangResik';
+import Teejay from './Component/details/teejay';
+import Dadaha from './Component/details/dadaha';
+import Ap from './Component/details/ap';
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
         <Route path='/dindingAri' element={<DindingAri />} />
         <Route path='/panyangrayan' element={<Panyangrayan />} />
         <Route path='/karangresik' element={<Karangresik />} />
+        <Route path='/teejay' element={<Teejay />} />
+        <Route path='/dadaha' element={<Dadaha />} />
+        <Route path='/ap' element={<Ap />} />
       </Routes>
       <Footer />
     </BrowserRouter>

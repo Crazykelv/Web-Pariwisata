@@ -1,27 +1,33 @@
 import React from 'react'
 import '../../App.css';
-import py1 from "../../Images/Panyangrayan/IMG_0774.JPG"
-import py2 from "../../Images/Panyangrayan/IMG_5420.JPG"
-import py3 from "../../Images/Panyangrayan/IMG_5450.JPG"
-import py4 from "../../Images/Panyangrayan/IMG_6073.JPG"
+import tj1 from "../../Images/Dadaha/dh1.jpeg"
+import tj2 from "../../Images/Dadaha/dh2.jpg"
+import tj3 from "../../Images/Dadaha/dh3.jpg"
+import tj4 from "../../Images/Dadaha/dh4.jpg"
+import tj5 from "../../Images/Dadaha/dh5.webp"
+import tj6 from "../../Images/Dadaha/dh6.jpg"
+import tj7 from "../../Images/Dadaha/dh7.jpg"
 import arrowwh from "../../Images/ARROW WHITE.png";
 import Carousel from './carousel.component';
 import { BsImageAlt } from "react-icons/bs";
 import { FaRegLightbulb } from "react-icons/fa6";
 
-const Panyangrayan = () => {
+const Dadaha = () => {
 
   let slides = [
-    py2,
-    py1,
-    py3,
-    py4,
+    tj2,
+    tj1,
+    tj3,
+    tj4,
+    tj5,
+    tj6,
+    tj7,
   ];
 
   return (
 <>
         <section style={{
-                        backgroundImage: `url(${py3})`,
+                        backgroundImage: `url(${tj1})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -34,7 +40,7 @@ const Panyangrayan = () => {
               className='flex items-center gap-1 text-2xl android:text-xl android-sm:text-lg iphone:text-sm'>Detail <span className='font-bold'>Lokasi</span><img className='w-7' src={arrowwh} alt="arrow" /></a>
             </div>
             <div className='flex flex-col gap-5 iphone:gap-3  items-end px-[10%]'>
-              <h1 className='font-extrabold text-9xl tablet-sm:text-7xl android:text-6xl android-sm:text-4xl iphone:text-3xl'>PANYANGRAYAN</h1>
+              <h1 className='font-extrabold text-9xl tablet-sm:text-7xl android:text-6xl android-sm:text-4xl iphone:text-3xl'>DADAHA</h1>
               <a className='font-normal text-2xl outline px-5 py-1 iphone:px-2 iphone:py-0 iphone:outline-1 android:text-sm android-sm:text-xs iphone:text-[7px]' href="#galeri">LIHAT GALERI</a>
             </div>
         </section>
@@ -54,7 +60,7 @@ const Panyangrayan = () => {
         <h1 className='bg-[#f6fbff] text-5xl android:text-4xl h-48 tablet-sm:h-32 android-sm:h-24 text-[#137FB8] flex gap-2 justify-center items-center font-thin text-center'>FUN <span className='font-bold'>FACT</span><FaRegLightbulb className='ml-5' /></h1>
         <section className='h-[100vh] flex tablet:flex-col tablet:h-[80vh] tablet-sm:h-[60vh] android-sm:h-[50vh]'>
         <div style={{
-                                  backgroundImage: `url(${py1})`,
+                                  backgroundImage: `url(${tj4})`,
                                   backgroundSize: 'cover',
                                   backgroundPosition: 'center',
                                   backgroundRepeat: 'no-repeat',
@@ -62,25 +68,25 @@ const Panyangrayan = () => {
                                   backgroundPosition: 'center',            
         }} className='w-[30vw] tablet:w-[100vw] h-[100vh] tablet:h-[50vw] flex flex-col justify-end bg-slate-100 text-6xl android:text-5xl iphone:text-3xl font-thin'>
           <div className='bg-[#004194] p-10 bg-opacity-40 tablet:h-full'>
-            <h1 className=' font-bold'>BUKIT</h1>
-            <h2 className=' ml-5 mt-3 iphone:mt-0'>PANYANGRAYAN</h2>
+            <h1 className=' font-bold'>TAMAN</h1>
+            <h2 className=' ml-5 mt-3 iphone:mt-0'>DADAHA</h2>
           </div>
         </div>
         <div className='w-[70vw] tablet:w-full h-[100vh]  py-[10%] px-[10%] text-[#505050]'>
-              <h1 className='text-6xl mb-2 title font-semibold text-[#137fb8] tablet-sm:text-5xl android:text-4xl android-sm:text-2xl iphone:text-xl'>PANYANGRAYAN</h1>
-              <p className='text-3xl tablet-sm:text-xl android:text-lg android-sm:text-sm iphone:text- leading-10'>Dari <span className='font-bold text-[#137fb8]'>puncak Panyangrayan</span>, 
-                pengunjung dapat melihat pemandangan <span className='font-bold text-[#137fb8]'>Sukaraja</span> dari ketinggian, 
-                <br />serta area <span className='font-bold text-[#137fb8]'>perbukitan dan persawahan</span> yang mengelilinginya. 
-                Selain itu, lokasi ini juga sering dijadikan sebagai tempat <span className='text-[#137fb8] font-bold'>berkemah</span> 
-                oleh para <span className='text-[#137fb8] font-bold'>pendaki</span> lokal maupun wisatawan yang ingin menikmati 
-                suasana malam di <span className='text-[#137fb8] font-bold'>alam terbuka.</span></p>
+              <h1 className='text-6xl mb-2 title font-semibold text-[#137fb8] tablet-sm:text-5xl android:text-4xl android-sm:text-2xl iphone:text-xl'>DADAHA</h1>
+              <p className='text-3xl tablet-sm:text-xl android:text-lg android-sm:text-sm iphone:text- leading-10'>Di <span className='font-bold text-[#137fb8]'>Dadaha</span>, 
+                pengunjung dapat menikmati suasana <span className='font-bold text-[#137fb8]'>taman kota</span> di Dadaha dengan berbagai jajanan dan makanan. 
+                <br />di Dadaha juga terdapat sarana <span className='font-bold text-[#137fb8]'>lapangan dan stadion</span> yang sering digunakan untuk olahraga lari. 
+                Selain itu, lokasi ini juga sering dijadikan sebagai tempat <span className='text-[#137fb8] font-bold'>event besar-besaran </span> 
+                seperti <span className='text-[#137fb8] font-bold'>festival</span> atau hal lainnya. 
+                </p>
         </div>
         </section>
         <section className='h-[100vh] tablet:h-[60vh] android:h-[30vh]'>
-        <iframe className='w-full h-full' src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Panyangrayan+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe>
+        <iframe className='w-full h-full' src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Taman%20Dadaha+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe>
         </section>
     </>
   )
 }
 
-export default Panyangrayan
+export default Dadaha

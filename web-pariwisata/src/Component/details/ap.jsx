@@ -1,27 +1,33 @@
 import React from 'react'
 import '../../App.css';
-import py1 from "../../Images/Panyangrayan/IMG_0774.JPG"
-import py2 from "../../Images/Panyangrayan/IMG_5420.JPG"
-import py3 from "../../Images/Panyangrayan/IMG_5450.JPG"
-import py4 from "../../Images/Panyangrayan/IMG_6073.JPG"
+import py1 from "../../Images/Ap/dh1.jpg"
+import py2 from "../../Images/Ap/dh2.jpg"
+import py3 from "../../Images/Ap/dh3.jpg"
+import py4 from "../../Images/Ap/dh4.webp"
+import py5 from "../../Images/Ap/dh5.jpg"
+import py6 from "../../Images/Ap/dh6.jpg"
+import py7 from "../../Images/Ap/dh7.jpeg"
 import arrowwh from "../../Images/ARROW WHITE.png";
 import Carousel from './carousel.component';
 import { BsImageAlt } from "react-icons/bs";
 import { FaRegLightbulb } from "react-icons/fa6";
 
-const Panyangrayan = () => {
+const Ap = () => {
 
   let slides = [
     py2,
     py1,
     py3,
     py4,
+    py5,
+    py6,
+    py7,
   ];
 
   return (
 <>
         <section style={{
-                        backgroundImage: `url(${py3})`,
+                        backgroundImage: `url(${py1})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -34,7 +40,7 @@ const Panyangrayan = () => {
               className='flex items-center gap-1 text-2xl android:text-xl android-sm:text-lg iphone:text-sm'>Detail <span className='font-bold'>Lokasi</span><img className='w-7' src={arrowwh} alt="arrow" /></a>
             </div>
             <div className='flex flex-col gap-5 iphone:gap-3  items-end px-[10%]'>
-              <h1 className='font-extrabold text-9xl tablet-sm:text-7xl android:text-6xl android-sm:text-4xl iphone:text-3xl'>PANYANGRAYAN</h1>
+              <h1 className='font-extrabold text-9xl tablet-sm:text-7xl android:text-6xl android-sm:text-4xl iphone:text-3xl'>ASIA PLAZA</h1>
               <a className='font-normal text-2xl outline px-5 py-1 iphone:px-2 iphone:py-0 iphone:outline-1 android:text-sm android-sm:text-xs iphone:text-[7px]' href="#galeri">LIHAT GALERI</a>
             </div>
         </section>
@@ -62,13 +68,13 @@ const Panyangrayan = () => {
                                   backgroundPosition: 'center',            
         }} className='w-[30vw] tablet:w-[100vw] h-[100vh] tablet:h-[50vw] flex flex-col justify-end bg-slate-100 text-6xl android:text-5xl iphone:text-3xl font-thin'>
           <div className='bg-[#004194] p-10 bg-opacity-40 tablet:h-full'>
-            <h1 className=' font-bold'>BUKIT</h1>
-            <h2 className=' ml-5 mt-3 iphone:mt-0'>PANYANGRAYAN</h2>
+            <h1 className=' font-bold'>PLAZA</h1>
+            <h2 className=' ml-5 mt-3 iphone:mt-0'>ASIA</h2>
           </div>
         </div>
         <div className='w-[70vw] tablet:w-full h-[100vh]  py-[10%] px-[10%] text-[#505050]'>
-              <h1 className='text-6xl mb-2 title font-semibold text-[#137fb8] tablet-sm:text-5xl android:text-4xl android-sm:text-2xl iphone:text-xl'>PANYANGRAYAN</h1>
-              <p className='text-3xl tablet-sm:text-xl android:text-lg android-sm:text-sm iphone:text- leading-10'>Dari <span className='font-bold text-[#137fb8]'>puncak Panyangrayan</span>, 
+              <h1 className='text-6xl mb-2 title font-semibold text-[#137fb8] tablet-sm:text-5xl android:text-4xl android-sm:text-2xl iphone:text-xl'>ASIA PLAZA</h1>
+              <p className='text-3xl tablet-sm:text-xl android:text-lg android-sm:text-sm iphone:text- leading-10'>Di <span className='font-bold text-[#137fb8]'>Asia PLaza</span>, 
                 pengunjung dapat melihat pemandangan <span className='font-bold text-[#137fb8]'>Sukaraja</span> dari ketinggian, 
                 <br />serta area <span className='font-bold text-[#137fb8]'>perbukitan dan persawahan</span> yang mengelilinginya. 
                 Selain itu, lokasi ini juga sering dijadikan sebagai tempat <span className='text-[#137fb8] font-bold'>berkemah</span> 
@@ -83,4 +89,4 @@ const Panyangrayan = () => {
   )
 }
 
-export default Panyangrayan
+export default Ap
