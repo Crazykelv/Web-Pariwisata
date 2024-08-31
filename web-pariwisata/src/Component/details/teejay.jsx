@@ -27,7 +27,7 @@ const Teejay = () => {
   return (
 <>
         <section style={{
-                        backgroundImage: `url(${tj7})`,
+                        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${tj7})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',

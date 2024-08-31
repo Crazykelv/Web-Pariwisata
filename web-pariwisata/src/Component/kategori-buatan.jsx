@@ -13,7 +13,7 @@ const KategoriBuatan = () => {
     <div className='h-[25vh]'>
         <img className='filter absolute brightness-50 h-[300px] object-cover w-full' src={bgBuatan} />
         <div className='relative text-center'>
-          <h1 className='text-white font-bold text-7xl pt-24'>WISATA BUATAN</h1>
+          <h1 className='text-white font-bold text-7xl pt-24 px-10 android:text-5xl'>WISATA BUATAN</h1>
         </div>
     </div>
 

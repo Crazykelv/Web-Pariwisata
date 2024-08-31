@@ -11,7 +11,7 @@ export const data = [
         nama: 'Dinding Ari',
         gambar: require('./Images/dinding/IMG_1052.JPG'),
         tipe: 'Gunung',
-        link: '/panyangrayan'  
+        link: '/dindingAri'  
     },
 
     {
@@ -19,14 +19,14 @@ export const data = [
         nama: 'Pujiningrum',
         gambar: require('./Images/Bukit Pujiningrum/5.jpg'),    
         tipe: 'Bukit',
-        link: '/panyangrayan'    
+        link: '/pujiningrum'    
     },
     {
         kategori: 'Dataran Tinggi',
         nama: 'Pangangonan',
         gambar: require('./Images/Bukit Pangangonan/5.jpeg'),    
         tipe: 'Bukit',
-        link: '/panyangrayan'    
+        link: '/pangangonan'    
     },
     {
         kategori: 'Dataran Tinggi',
@@ -40,7 +40,7 @@ export const data = [
         nama: 'Sampalan',
         gambar: require('./Images/Sampalan/2.png'),
         tipe: 'Bukit',
-        link: '/panyangrayan'        
+        link: '/bukitSampalan'        
     },
     {
         kategori: 'Dataran Tinggi',
@@ -63,7 +63,7 @@ export const data = [
         nama: 'Karang Resik',
         gambar: require('./Images/karangresik/karangresik2.jpg'),    
         tipe: 'Taman Bermain',
-        link: '/panyangrayan'    
+        link: '/karangresik'    
     },
 
     {
@@ -71,7 +71,7 @@ export const data = [
         nama: 'Karang Tawulan',
         gambar: require('./Images/karangtawulan/TW1.JPG'),
         tipe: 'Pantai',
-        link: '/panyangrayan'        
+        link: '/karangtawulan'        
     },
 
     {
@@ -79,15 +79,15 @@ export const data = [
         nama: 'Cemara',
         gambar: require('./Images/Pantai cemara/IMG_2286.JPG'),
         tipe: 'Pantai',
-        link: '/panyangrayan'        
+        link: '/cemara'        
     },
 
     {
         kategori: 'Pantai dan perairan',
         nama: 'Pamayang',
-        gambar: require('./Images/pamayang/py.jpg'),
+        gambar: require('./Images/pamayang/pmy2.png'),
                 tipe: 'Pantai',
-        link: '/panyangrayan'    
+        link: '/pamayang'    
     
     },
     {
@@ -95,7 +95,23 @@ export const data = [
         nama: 'Situ Gede',
         gambar: require('./Images/situGede/1.png'),
                 tipe: 'Danau',
-        link: '/panyangrayan'    
+        link: '/situGede'    
+    
+    },
+    {
+        kategori: 'Pantai dan perairan',
+        nama: 'Badak',
+        gambar: require('./Images/Curug badak/1.JPG'),
+                tipe: 'Curug',
+        link: '/curugBadak'    
+    
+    },
+    {
+        kategori: 'Pantai dan perairan',
+        nama: 'Deng deng',
+        gambar: require('./Images/Curug deng deng/1.jpg'),
+                tipe: 'Curug',
+        link: '/curugDengdeng'    
     
     },
 
@@ -103,8 +119,8 @@ export const data = [
         kategori: 'Buatan',
         nama: 'Dadaha',
         gambar: require('./Images/Dadaha/dh1.jpeg'),
-                tipe: 'Buatan',
-        link: '/panyangrayan'    
+                tipe: 'Taman',
+        link: '/dadaha'    
     
     },
 
@@ -112,8 +128,8 @@ export const data = [
         kategori: 'Buatan',
         nama: 'Asia Plaza',
         gambar: require('./Images/Ap/dh1.jpg'),
-                tipe: 'Buatan',
-        link: '/panyangrayan'    
+                tipe: 'Mall',
+        link: '/ap'    
     
     },
 
@@ -121,8 +137,8 @@ export const data = [
         kategori: 'Buatan',
         nama: 'Tee Jay',
         gambar: require('./Images/Teejay/tj1.jpeg'),
-                tipe: 'Buatan',
-        link: '/panyangrayan'    
+                tipe: 'Kolam',
+        link: '/teejay'    
     
     },
 

@@ -3,7 +3,9 @@ import '../../App.css';
 import tj1 from "../../Images/Dadaha/dh1.jpeg"
 import tj2 from "../../Images/Dadaha/dh2.jpg"
 import tj3 from "../../Images/Dadaha/dh3.jpg"
-import tj4 from "../../Images/Dadaha/dh4.jpg"
+import tj4 from "../../Images/Dadaha/1.png"
+import tj8 from "../../Images/Dadaha/2.png"
+import tj9 from "../../Images/Dadaha/3.png"
 import tj5 from "../../Images/Dadaha/dh5.webp"
 import tj6 from "../../Images/Dadaha/dh6.jpg"
 import tj7 from "../../Images/Dadaha/dh7.jpg"
@@ -22,12 +24,14 @@ const Dadaha = () => {
     tj5,
     tj6,
     tj7,
+    tj8,
+    tj9,
   ];
 
   return (
 <>
         <section style={{
-                        backgroundImage: `url(${tj1})`,
+                        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${tj4})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',

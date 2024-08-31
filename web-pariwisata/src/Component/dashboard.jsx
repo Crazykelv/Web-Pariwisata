@@ -46,14 +46,14 @@ const Dash = () => {
                                 <img className="w-[500px] tablet:w-[90vh] tablet:h-[40vh] android:h-[25vh] object-cover " src={ari}/>
                                 <div className="absolute inset-0 mt-[70%] tablet-sm:mt-[40%] tablet:mt-[30%] android:mt-[30%] iphone:mt-[50%] flex items-center justify-center bg-[#137FB8] bg-opacity-65"><h1 className="text-center text-xl font-[700] text-white">GUNUNG <br/><span className="font-[300]">DINDING ARI</span></h1></div>
                             </a>
-                            <div className="relative"> {/* IMAGE BOX */}
+                            <a href="/karangtawulan" className="relative"> {/* IMAGE BOX */}
                                 <img className="w-[500px] tablet:w-[90vh] tablet:h-[40vh] android:h-[25vh] object-cover object-bottom" src={karang}/>
                                 <div className="absolute inset-0 mt-[70%] tablet-sm:mt-[40%] tablet:mt-[30%] android:mt-[30%] iphone:mt-[50%] flex items-center justify-center bg-[#137FB8] bg-opacity-65"><h1 className="text-center text-xl font-[700] text-white">PANTAI <br/><span className="font-[300]">KARANG TAWULAN</span></h1></div>
-                            </div>
-                            <div className="relative"> {/* IMAGE BOX */}
+                            </a>
+                            <a href="/karangresik" className="relative"> {/* IMAGE BOX */}
                                 <img className="w-[500px] tablet:w-[90vh] tablet:h-[40vh] android:h-[25vh] object-cover " src={resik}/>
                                 <div className="absolute inset-0 mt-[70%] tablet-sm:mt-[40%] tablet:mt-[30%] android:mt-[30%] iphone:mt-[50%] flex items-center justify-center bg-[#137FB8] bg-opacity-65"><h1 className="text-center text-xl font-[700] text-white">BUATAN <br/><span className="font-[300]">KARANG RESIK</span></h1></div>
-                            </div>
+                            </a>
                             </div>
                             </div>
                 </div>

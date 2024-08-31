@@ -10,7 +10,7 @@ const KategoriPantai = () => {
     <div className='h-[25vh]'>
         <img className='filter absolute brightness-50 h-[300px] object-cover w-full' src={bgPantai} />
         <div className='relative text-center'>
-          <h1 className='text-white font-bold text-5xl pt-24'>WISATA PANTAI DAN PERAIRAN</h1>
+          <h1 className='text-white font-bold text-5xl pt-24 px-10 android:text-4xl'>WISATA PANTAI DAN PERAIRAN</h1>
         </div>
     </div>
           {/* <div className='px-32 py-14 text-[#137FB8]'>

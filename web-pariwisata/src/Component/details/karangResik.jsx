@@ -1,10 +1,11 @@
 import React from 'react'
 import '../../App.css';
-import kr1 from "../../Images/karangresik/kr1.jpg"
-import kr2 from "../../Images/karangresik/kr2.jpg"
-import kr3 from "../../Images/karangresik/kr3.jpg"
-import kr4 from "../../Images/karangresik/kr4.jpg"
-import kr5 from "../../Images/karangresik/kr5.jpg"
+import kr2 from "../../Images/karangresik/1.png"
+import kr1 from "../../Images/karangresik/2.png"
+import kr3 from "../../Images/karangresik/3.png"
+import kr4 from "../../Images/karangresik/4.png"
+import kr5 from "../../Images/karangresik/5.png"
+import kr6 from "../../Images/karangresik/6.png"
 import arrowwh from "../../Images/ARROW WHITE.png";
 import Carousel from './carousel.component';
 import { BsImageAlt } from "react-icons/bs";
@@ -18,12 +19,13 @@ const Karangresik = () => {
     kr3,
     kr4,
     kr5,
+    kr6,
   ];
 
   return (
     <>
     <section style={{
-                    backgroundImage: `url(${kr1})`,
+                    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${kr2})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
@@ -70,12 +72,11 @@ const Karangresik = () => {
     </div>
     <div className='w-[70vw] tablet:w-full h-[100vh]  py-[10%] px-[10%] text-[#505050]'>
           <h1 className='text-6xl mb-2 title font-semibold text-[#137fb8] tablet-sm:text-5xl android:text-4xl android-sm:text-2xl iphone:text-xl'>KARANG RESIK</h1>
-          <p className='text-3xl tablet-sm:text-xl android:text-lg android-sm:text-sm iphone:text- leading-10'>Di <span className='font-bold text-[#137fb8]'>Karang Resik,</span>, 
-            pengunjung dapat melihat pemandangan <span className='font-bold text-[#137fb8]'>Berbagai wisata</span>  
-            <br />serta area <span className='font-bold text-[#137fb8]'>perbukitan dan persawahan</span> yang mengelilinginya. 
-            Selain itu, lokasi ini juga sering dijadikan sebagai tempat <span className='text-[#137fb8] font-bold'>event</span> 
-            oleh para <span className='text-[#137fb8] font-bold'>pengunjung</span> lokal maupun wisatawan yang ingin menikmati 
-            suasana wisata taman di <span className='text-[#137fb8] font-bold'>Karang Resik.</span></p>
+          <p className='text-3xl tablet-sm:text-xl android:text-lg android-sm:text-sm iphone:text- leading-10'>Ada beberapa keunikan di Taman Bermain yang satu ini! 
+          Terdapat <span className='font-bold text-[#137fb8]'> Kampung Korea dan Jepang</span> yang dijamin membuat pengunjung merasakan budaya <span className='font-bold text-[#137fb8]'> Korea dan Jepang</span> yang sesungguhnya.
+          Di karang resik juga terdapat permainan <span className='font-bold text-[#137fb8]'> labirin</span> yang dijamin seru untuk dimainkan bersama bestie dan keluarga. 
+          Ga kelewatan, disini juga ada <span className='font-bold text-[#137fb8]'> kolam renang</span> nya loh.
+          </p>
     </div>
     </section>
     <section className='h-[100vh] tablet:h-[60vh] android:h-[30vh]'>

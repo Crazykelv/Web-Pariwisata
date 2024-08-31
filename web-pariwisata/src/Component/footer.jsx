@@ -15,10 +15,10 @@ const Footer = () => {
         </div>
         <div className="flex flex-col">
             <h1 className="font-bold text-2xl mb-3">MORE INFORMATION</h1>
-            <a href="https://unsil.ac.id/">Website Universitas Siliwangi</a>
-            <a href="https://if.unsil.ac.id/">Website Jurusan Informatika Universitas Siliwangi</a>
-            <a href="https://sicodev.my.id/">Website Sicodev</a>
-            <a href="https://www.instagram.com/sicodev.unsil/">Instagram Sicodev</a>
+            <a target="blank" href="https://unsil.ac.id/">Website Universitas Siliwangi</a>
+            <a target="blank" href="https://if.unsil.ac.id/">Website Jurusan Informatika Universitas Siliwangi</a>
+            <a target="blank" href="https://sicodev.my.id/">Website Sicodev</a>
+            <a target="blank" href="https://www.instagram.com/sicodev.unsil/">Instagram Sicodev</a>
         </div>
       </footer>
     </>

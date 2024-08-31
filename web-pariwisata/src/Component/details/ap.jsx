@@ -27,7 +27,7 @@ const Ap = () => {
   return (
 <>
         <section style={{
-                        backgroundImage: `url(${py1})`,
+                        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${py1})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',

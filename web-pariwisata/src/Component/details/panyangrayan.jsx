@@ -60,10 +60,10 @@ const Panyangrayan = () => {
                                   backgroundRepeat: 'no-repeat',
                                   color: 'white',
                                   backgroundPosition: 'center',            
-        }} className='w-[30vw] tablet:w-[100vw] h-[100vh] tablet:h-[50vw] flex flex-col justify-end bg-slate-100 text-6xl android:text-5xl iphone:text-3xl font-thin'>
+        }} className='w-[30vw] tablet:w-[100vw] h-[100vh] tablet:h-[50vw] flex flex-col justify-end bg-slate-100 text-6xl android:text-4xl iphone:text-2xl font-thin'>
           <div className='bg-[#004194] p-10 bg-opacity-40 tablet:h-full'>
             <h1 className=' font-bold'>BUKIT</h1>
-            <h2 className=' ml-5 mt-3 iphone:mt-0'>PANYANGRAYAN</h2>
+            <h2 className=' ml-5 mt-3 iphone:mt-0 '>PANYANGRAYAN</h2>
           </div>
         </div>
         <div className='w-[70vw] tablet:w-full h-[100vh]  py-[10%] px-[10%] text-[#505050]'>
