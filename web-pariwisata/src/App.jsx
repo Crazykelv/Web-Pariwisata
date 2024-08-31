@@ -22,6 +22,9 @@ import Dengdeng from './Component/details/Pantai dan perairan/dengdeng';
 import Pujiningrum from './Component/details/pujiningrum';
 import Pangangonan from './Component/details/pangangonan';
 import Sampalan from './Component/details/sampalan';
+import Sarasa from './Component/details/sarasa';
+import Shelter from './Component/details/shelter';
+import Cipanas from './Component/details/cipanas';
 
 
 function App() {
@@ -41,6 +44,9 @@ function App() {
         <Route path='/pujiningrum' element={<Pujiningrum />} />
         <Route path='/pangangonan' element={<Pangangonan />} />
         <Route path='/bukitSampalan' element={<Sampalan />} />
+        <Route path='/sarasa' element={<Sarasa />} />
+        <Route path='/shelter' element={<Shelter />} />
+        <Route path='/cipanas' element={<Cipanas />} />
 
         {/* DETAIL DATARAN TINGGI */}
 
